@@ -59,6 +59,7 @@
   font-size: 20px;
   color: white;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 .hcontent__right__box:nth-child(1) {
