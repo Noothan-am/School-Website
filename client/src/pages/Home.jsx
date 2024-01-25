@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import HomeContent from "../components/HomeContent";
 import styles from "../styles/homepage.module.css";
+import Footer from "../components/Footer";
 function Home() {
   return (
     <div>
@@ -11,6 +12,7 @@ function Home() {
         <h1>The Government High School, Rajanakunte</h1>
       </div>
       <HomeContent />
+      <Footer />
     </div>
   );
 }

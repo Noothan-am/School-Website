@@ -1,0 +1,19 @@
+.office-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #003366;
+  color: white;
+  padding: 20px 0px;
+}
+
+.office-info {
+  margin-right: 50px;
+}
+
+.office-info h2 {
+  font-size: 20px;
+}
+
+.office-info p {
+  font-size: 15px;
+}
