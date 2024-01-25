@@ -4,7 +4,7 @@ import styles from "../styles/navbar.module.css";
 function Navbar() {
   return (
     <nav
-      className={`${styles.navbar} navbar navbar-expand-lg navbar-dark bg-primary`}
+      className={`${styles.navbar} navbar navbar-expand-lg navbar-light background-color: #e3f2fd;`}
     >
       <a className={`${styles.navbarBrand} navbar-brand`} href="/">
         Logo
@@ -27,7 +27,7 @@ function Navbar() {
         <ul className={`navbar-nav ${styles.navbarNav}`}>
           <li className={`nav-item active ${styles.navItem}`}>
             <a className={`nav-link ${styles.navLink}`} href="/">
-              Home Page
+              Home
             </a>
           </li>
           <li className={`nav-item ${styles.navItem}`}>
