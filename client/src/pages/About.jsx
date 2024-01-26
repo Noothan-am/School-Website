@@ -2,11 +2,14 @@ import React from "react";
 import AboutVM from "../components/AboutVM";
 import FacultyDetails from "../components/FacultyDetails";
 import { collegeDevelopment } from "../constants/index";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 function About() {
   return (
-    <div>
-      <div class="d-flex align-items-start">
+    <div className="about">
+      <Navbar />
+      <div class="d-flex  align-items-start" style={{ marginTop: "3rem" }}>
         <div
           class="nav flex-column nav-pills me-3"
           id="v-pills-tab"
@@ -14,7 +17,7 @@ function About() {
           aria-orientation="vertical"
         >
           <button
-            class="nav-link active"
+            class="nav-link my-2 active"
             id="v-pills-home-tab"
             data-bs-toggle="pill"
             data-bs-target="#v-pills-home"
@@ -26,7 +29,7 @@ function About() {
             Vision Mission
           </button>
           <button
-            class="nav-link"
+            class="nav-link my-2"
             id="v-pills-profile-tab"
             data-bs-toggle="pill"
             data-bs-target="#v-pills-profile"
@@ -38,7 +41,7 @@ function About() {
             College Development committee
           </button>
           <button
-            class="nav-link"
+            class="nav-link my-2"
             id="v-pills-messages-tab"
             data-bs-toggle="pill"
             data-bs-target="#v-pills-messages"
@@ -50,7 +53,7 @@ function About() {
             Board of Members
           </button>
           <button
-            class="nav-link"
+            class="nav-link my-2"
             id="v-pills-settings-tab"
             data-bs-toggle="pill"
             data-bs-target="#v-pills-settings"
@@ -62,7 +65,7 @@ function About() {
             About Chairperson
           </button>
           <button
-            class="nav-link"
+            class="nav-link my-2"
             id="v-pills-principals-tab"
             data-bs-toggle="pill"
             data-bs-target="#v-pills-principals"
@@ -125,6 +128,7 @@ function About() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
