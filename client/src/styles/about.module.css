@@ -1,0 +1,25 @@
+.vm {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 500px;
+  align-items: center;
+}
+
+.vm__h1 {
+  color: rgb(1, 111, 255);
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.vm__line {
+  border-bottom: 2px solid grey;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.vm__p {
+  color: rgb(36, 221, 221);
+  position: relative;
+  left: 15px;
+}
