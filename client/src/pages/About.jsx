@@ -1,7 +1,11 @@
 import React from "react";
 import AboutVM from "../components/AboutVM";
 import FacultyDetails from "../components/FacultyDetails";
-import { collegeDevelopment } from "../constants/index";
+import {
+  boardMemeber,
+  collegeDevelopment,
+  principals,
+} from "../constants/index";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
@@ -108,7 +112,14 @@ function About() {
             role="tabpanel"
             aria-labelledby="v-pills-messages-tab"
           >
-            3
+            {boardMemeber.map((faculty) => (
+              <FacultyDetails
+                key={faculty.name}
+                about={faculty.about}
+                img={faculty.img}
+                name={faculty.name}
+              />
+            ))}
           </div>
           <div
             class="tab-pane fade"
@@ -124,7 +135,17 @@ function About() {
             role="tabpanel"
             aria-labelledby="v-pills-principals-tab"
           >
-            5
+            {principals.map((faculty) => (
+              <FacultyDetails
+                key={faculty.name}
+                about={faculty.about}
+                img={faculty.img}
+                name={faculty.name}
+                designation={faculty.designation}
+                experience={faculty.experience}
+                joining_date={faculty.joining_date}
+              />
+            ))}
           </div>
         </div>
       </div>

@@ -9,7 +9,6 @@
 .faculty__imageContainer {
   flex: 0 0 40%;
   margin-right: 20px;
-  /* border: 1px solid #333; */
 }
 
 .faculty__image {
@@ -34,7 +33,10 @@
   margin-bottom: 8px;
 }
 
+.faculty__experience,
+.faculty__joiningDate,
 .faculty__about {
   color: #777;
   font-size: 14px;
+  margin-bottom: 8px;
 }

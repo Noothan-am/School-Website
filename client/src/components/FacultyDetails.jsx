@@ -1,7 +1,14 @@
 import React from "react";
 import styles from "../styles/faculty.module.css";
 
-const FacultyDetails = ({ img, name, designation, about }) => {
+const FacultyDetails = ({
+  img,
+  name,
+  designation,
+  about,
+  experience,
+  joining_date,
+}) => {
   return (
     <section className={styles.faculty}>
       <div className={styles.faculty__imageContainer}>
@@ -9,8 +16,18 @@ const FacultyDetails = ({ img, name, designation, about }) => {
       </div>
       <div className={styles.faculty__info}>
         <h2 className={styles.faculty__name}>{name}</h2>
-        <p className={styles.faculty__designation}>{designation}</p>
+        {designation && (
+          <p className={styles.faculty__designation}>{designation}</p>
+        )}
         {about && <p className={styles.faculty__about}>{about}</p>}
+        {experience && (
+          <p className={styles.faculty__experience}>Experience: {experience}</p>
+        )}
+        {joining_date && (
+          <p className={styles.faculty__joiningDate}>
+            Joining Date: {joining_date}
+          </p>
+        )}
       </div>
     </section>
   );

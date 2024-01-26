@@ -1,4 +1,15 @@
-import { president, treasurer, vicePresident } from "../assets";
+import {
+  kantaruju,
+  manjula,
+  manjunath,
+  mohankumar,
+  president,
+  shivanna,
+  sreenivasa,
+  thimma,
+  treasurer,
+  vicePresident,
+} from "../assets";
 
 export const homedetails = [
   {
@@ -37,5 +48,55 @@ export const collegeDevelopment = [
     designation: "Treasurer",
     about: "B.Pharm, Social Worker",
     img: treasurer,
+  },
+];
+
+export const boardMemeber = [
+  {
+    name: "Shri. M Manjunath ",
+    about: "Edu - BA",
+    img: manjunath,
+  },
+  {
+    name: "Shri Shivanna N C",
+    about: "Edu – MA, M.Phil(Rtd.Principal)",
+    img: shivanna,
+  },
+  {
+    name: "Shri.M MohanKumar",
+    about: "Edu -  Dip civil",
+    img: mohankumar,
+  },
+  {
+    name: "Shri M Thimma Reddy ",
+    about: "Edu -  BSC, B.Ed",
+    img: thimma,
+  },
+];
+
+export const principals = [
+  {
+    name: "V R Manjula",
+    about: "Edu - M.A,M.Phil",
+    img: manjula,
+    designation: "Incharge Pricipal Of PU college",
+    experience: "17 years",
+    joining_date: "05/11/2007",
+  },
+  {
+    name: "Kantaruju B G",
+    about: "Edu – MSc, M.Ed, KES",
+    img: kantaruju,
+    designation: "Principal Of High school",
+    experience: "17 years",
+    joining_date: "15/06/2007",
+  },
+  {
+    name: "Sreenivasa G",
+    about: "Edu – CPEd, Kan& Eng Sr typing, PUC",
+    img: sreenivasa,
+    designation: "Incharge Pricipal Of Primary School",
+    experience: "29 years",
+    joining_date: "26/07/1994",
   },
 ];
