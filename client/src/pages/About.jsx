@@ -1,22 +1,60 @@
 import React from "react";
 import AboutVM from "../components/AboutVM";
 import FacultyDetails from "../components/FacultyDetails";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import styles from "../styles/about.module.css";
+import { president } from "../assets";
 import {
   boardMemeber,
   collegeDevelopment,
   principals,
 } from "../constants/index";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+
+const FourthTab = () => {
+  return (
+    <div class={styles["faculty"]}>
+      <div class="">
+        <img src={president} alt="" width="300" height="300" />
+      </div>
+      <div class={styles["fourth-content"]}>
+        <hr />
+        <h4 class="name">Shri S R Vishwanath</h4>
+        <span class="designation">MLA, Yelahanka </span>
+        <br />
+        <span class="designation">Member, TTD Board&amp;M</span>
+        <br />
+        <span class="designation">
+          Former Chairman, Bangalore Development Authority (BDA)
+        </span>
+        <hr />
+        <p>
+          Singanayakanahalli Ramaiah Vishwanath is an Indian Politician who is
+          current MLA from Yelahanka constituency since 25 May 2008. He is
+          former Chairman of Bangalore Development Authority and presently
+          Member of Tirumala Tirupati Devasthanams (TTD) Board.
+        </p>
+        <p>
+          He is a social worker and the chairperson of Government school and PU
+          college of Rajanukunte. He is the founder of Vishwa Vani Foundation.
+        </p>
+      </div>
+    </div>
+  );
+};
 
 function About() {
   return (
     <div className="about">
       <Navbar />
-      <div class="d-flex  align-items-start" style={{ marginTop: "3rem" }}>
+      <div
+        class="d-flex align-items-start"
+        style={{ marginTop: "3rem", marginLeft: "4rem", width: "90%" }}
+      >
         <div
           class="nav flex-column nav-pills me-3"
           id="v-pills-tab"
+          style={{ width: "25%", minWidth: "25%" }}
           role="tablist"
           aria-orientation="vertical"
         >
@@ -88,7 +126,7 @@ function About() {
             role="tabpanel"
             aria-labelledby="v-pills-home-tab"
           >
-            1
+            <AboutVM />
           </div>
           <div
             class="tab-pane fade"
@@ -127,28 +165,29 @@ function About() {
             role="tabpanel"
             aria-labelledby="v-pills-settings-tab"
           >
-            4
-          </div>
-          <div
-            class="tab-pane fade"
-            id="v-pills-principals"
-            role="tabpanel"
-            aria-labelledby="v-pills-principals-tab"
-          >
-            {principals.map((faculty) => (
-              <FacultyDetails
-                key={faculty.name}
-                about={faculty.about}
-                img={faculty.img}
-                name={faculty.name}
-                designation={faculty.designation}
-                experience={faculty.experience}
-                joining_date={faculty.joining_date}
-              />
-            ))}
+            <FourthTab />
           </div>
         </div>
+        <div
+          class="tab-pane fade"
+          id="v-pills-principals"
+          role="tabpanel"
+          aria-labelledby="v-pills-principals-tab"
+        >
+          {principals.map((faculty) => (
+            <FacultyDetails
+              key={faculty.name}
+              about={faculty.about}
+              img={faculty.img}
+              name={faculty.name}
+              designation={faculty.designation}
+              experience={faculty.experience}
+              joining_date={faculty.joining_date}
+            />
+          ))}
+        </div>
       </div>
+
       <Footer />
     </div>
   );

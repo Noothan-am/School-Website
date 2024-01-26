@@ -9,7 +9,7 @@ function Home() {
       <Navbar />
       <div className={styles["home-hero"]}>
         <img src={require("../assets/hero-bg.jpg")} alt="" />
-        <h1>The Government High School, Rajanakunte</h1>
+        <h1>GOVERNMENT INSTITUTIONS RAJANUKUNTE</h1>
       </div>
       <HomeContent />
       <Footer />
