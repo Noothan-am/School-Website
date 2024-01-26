@@ -1,0 +1,40 @@
+.faculty {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  height: 300px;
+}
+
+.faculty__imageContainer {
+  flex: 0 0 40%;
+  margin-right: 20px;
+  /* border: 1px solid #333; */
+}
+
+.faculty__image {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+}
+
+.faculty__info {
+  flex: 1;
+}
+
+.faculty__name {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.faculty__designation {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.faculty__about {
+  color: #777;
+  font-size: 14px;
+}

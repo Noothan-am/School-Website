@@ -1,3 +1,5 @@
+import { president, treasurer, vicePresident } from "../assets";
+
 export const homedetails = [
   {
     heading: "About",
@@ -13,5 +15,27 @@ export const homedetails = [
     heading: "Extra",
     content:
       "Established in 2009, the Government High School in Rajanakunte, Bangalore, Karnataka, sprawls across 4.5 acres. This institution provides education for 9th and 10th grades in both Kannada and English mediums.",
+  },
+];
+
+export const collegeDevelopment = [
+  {
+    name: "Shri S R Vishwanath",
+    designation: "President",
+    about:
+      "MLA, Yelahanka | Member, TTD Board | Former Chairman, Bangalore Development Authority (BDA)",
+    img: president,
+  },
+  {
+    name: "R M Somashekar Reddy",
+    designation: "Vice-president",
+    about: "Businessman",
+    img: vicePresident,
+  },
+  {
+    name: "RC Rajendra Kumar",
+    designation: "Treasurer",
+    about: "B.Pharm, Social Worker",
+    img: treasurer,
   },
 ];
