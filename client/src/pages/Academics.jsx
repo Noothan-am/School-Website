@@ -1,25 +1,13 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { overview, scholarship } from "../constants/index";
+import TextContent from "../components/TextContent";
 
-const OverviewContent = () => {
-  return (
-    <>
-      <h1>overview</h1>
-    </>
-  );
-};
 const TimetablesContent = () => {
   return (
     <>
       <h1>Timetables</h1>
-    </>
-  );
-};
-const ScholarshipsContent = () => {
-  return (
-    <>
-      <h1>Scholarships</h1>
     </>
   );
 };
@@ -83,7 +71,9 @@ function Academics() {
             role="tabpanel"
             aria-labelledby="v-pills-home-tab"
           >
-            <OverviewContent />
+            {overview.map((over) => (
+              <TextContent title={over.title} content={over.content} />
+            ))}
           </div>
           <div
             class="tab-pane fade"
@@ -99,7 +89,9 @@ function Academics() {
             role="tabpanel"
             aria-labelledby="v-pills-messages-tab"
           >
-            <ScholarshipsContent />
+            {scholarship.map((scholar) => (
+              <TextContent title={scholar.title} content={scholar.content} />
+            ))}
           </div>
         </div>
       </div>

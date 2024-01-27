@@ -1,5 +1,4 @@
 import React from "react";
-import AboutVM from "../components/AboutVM";
 import FacultyDetails from "../components/FacultyDetails";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -9,7 +8,9 @@ import {
   boardMemeber,
   collegeDevelopment,
   principals,
+  vm,
 } from "../constants/index";
+import TextContent from "../components/TextContent";
 
 const FourthTab = () => {
   return (
@@ -126,7 +127,9 @@ function About() {
             role="tabpanel"
             aria-labelledby="v-pills-home-tab"
           >
-            <AboutVM />
+            {vm.map((v) => (
+              <TextContent title={v.title} content={v.content} />
+            ))}
           </div>
           <div
             class="tab-pane fade"
