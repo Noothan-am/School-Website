@@ -2,6 +2,7 @@ import About from "./pages/About";
 import Academics from "./pages/Academics";
 import Admissions from "./pages/Admissions";
 import Home from "./pages/Home";
+import "./App.css";
 
 import { Routes, Route } from "react-router-dom";
 

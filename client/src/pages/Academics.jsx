@@ -3,12 +3,76 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { overview, scholarship } from "../constants/index";
 import TextContent from "../components/TextContent";
+import puTimetable from "../assets/pu-timetable.pdf";
+import highSchoolTimetable from "../assets/high-school-timetable.pdf";
+import primarySchoolTimetable from "../assets/primary-school-timetable.pdf";
+import { Link } from "react-router-dom";
+import styles from "../styles/academics.module.css";
 
 const TimetablesContent = () => {
   return (
-    <>
-      <h1>Timetables</h1>
-    </>
+    <div className={styles["timetable"]}>
+      <div className={styles["primary-school-timetable"]}>
+        <div class="card w-100">
+          <div class="card-body">
+            <h5 class="card-title">The Government Primary School</h5>
+            <p class="card-text">
+              Download the timetable for primary school for current academic
+              year
+            </p>
+            <a
+              class="btn btn-primary"
+              href={primarySchoolTimetable}
+              download="primary-school-timetable"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Button
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles["high-school-timetable"]}>
+        <div class="card w-100">
+          <div class="card-body">
+            <h5 class="card-title">The Government High School</h5>
+            <p class="card-text">
+              Download the timetable for high school for current academic year
+            </p>
+            <a
+              class="btn btn-primary"
+              href={highSchoolTimetable}
+              download="high-school-timetable"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Button
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles["pu-timetable"]}>
+        <div class="card w-100">
+          <div class="card-body">
+            <h5 class="card-title">The Government PU College</h5>
+            <p class="card-text">
+              Download the timetable for PU College for current academic year
+            </p>
+            <a
+              class="btn btn-primary"
+              href={puTimetable}
+              download="pu-timetable"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Button
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
 
