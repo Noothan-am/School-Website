@@ -8,13 +8,14 @@ import { Routes, Route } from "react-router-dom";
 import Departments from "./pages/Departments";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Lookbook from "./components/Lookbook";
 
 function App() {
   return (
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Lookbook />} />
         <Route path="/about" element={<About />} />
         <Route path="/academics" element={<Academics />} />
         <Route path="/departments" element={<Departments />} />
