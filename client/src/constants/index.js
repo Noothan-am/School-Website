@@ -1,4 +1,5 @@
 import {
+  ashwathamma,
   avatar,
   bai,
   gouthami,
@@ -359,7 +360,7 @@ export const commerce = [
   {
     name: "Ashwathamma K T(ACCOUNTANCY &BUSI. STUDIES)",
     about: "M.Com ,B.Ed",
-    img: avatar,
+    img: ashwathamma,
     experience: "01 Years",
     joining_date: "06/02/2023",
   },
@@ -448,5 +449,20 @@ export const department = [
     title: "High School",
     content:
       "The Government High School in Rajanakunte, a beacon of education since 2009. Our institution caters to students from Standards 9 to 12, fostering academic excellence and holistic development. With a curriculum aligned with state educational standards, we provide quality education in Kannada and English mediums. Our well-equipped classrooms, laboratories, library, and sports facilities contribute to a dynamic learning environment. Committed to community engagement, we collaborate with local authorities and organizations to create a supportive ecosystem. Explore scholarship opportunities such as SSP, NSP, Lions Club, Panchayat, and MLA Shri S R Vishwanath's support. Join us in nurturing the leaders of tomorrow.",
+  },
+  {
+    title: "ARTS",
+    content:
+      "Immerse yourself in our holistic arts program, encompassing literature, visual arts, performing arts, and cultural studies. Cultivate creativity and critical thinking, preparing for a future in diverse artistic expressions and cultural contributions. The couses offered her are HEPS i.e History, Economics, Political Science and Sociology",
+  },
+  {
+    title: "COMMERCE (HEBA, CEBA)",
+    content:
+      "Discover a well-rounded commerce program, delving into finance, accounting, and business management. HEBA integrates history, economics, business studies, and accountancy, offering a humanities and commerce blend. In CEBA, explore computer science, Economics, Business Studies, Accountancy , preparing for success in the dynamic business landscape. These courses equip students for diverse careers, providing a strong foundation for professional growth.",
+  },
+  {
+    title: "SCIENCE (PCMB, PCMCs)",
+    content:
+      "Embark on a comprehensive scientific journey with our PCMB and PCMCS courses. The PCMB program integrates Physics, Chemistry, Mathematics, and Biology, offering a solid foundation for diverse scientific careers. Meanwhile, PCMCS combines Physics, Chemistry, Mathematics, and Computer Science, providing a well-rounded understanding of both physical sciences and computational principles. These courses prepare students for a future in science and technology, fostering a strong theoretical base alongside practical applications.",
   },
 ];

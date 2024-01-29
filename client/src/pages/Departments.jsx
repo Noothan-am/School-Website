@@ -1,6 +1,13 @@
 import React from "react";
 import styles from "../styles/deparments.module.css";
-import { department, highSchool, primarySchool } from "../constants";
+import {
+  arts,
+  commerce,
+  department,
+  highSchool,
+  primarySchool,
+  science,
+} from "../constants";
 import FacultyDetails from "../components/FacultyDetails";
 import TextContent from "../components/TextContent";
 import Navbar from "../components/Navbar";
@@ -61,10 +68,20 @@ const Tabs = () => {
           role="tabpanel"
           aria-labelledby="home-tab"
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro veniam
-          veritatis perferendis quia inventore, quos, fuga enim laudantium
-          excepturi est, molestias aliquid alias pariatur incidunt ratione aut
-          sed molestiae a.
+          <TextContent
+            title={department[2].title}
+            content={department[2].content}
+          />
+          {arts.map((art) => (
+            <FacultyDetails
+              name={art.name}
+              designation={art.designation}
+              about={art.about}
+              img={art.img}
+              experience={art.experience}
+              joining_date={art.joining_date}
+            />
+          ))}
         </div>
         <div
           class="tab-pane fade"
@@ -72,7 +89,19 @@ const Tabs = () => {
           role="tabpanel"
           aria-labelledby="profile-tab"
         >
-          ...
+          <TextContent
+            title={department[3].title}
+            content={department[3].content}
+          />
+          {commerce.map((comm) => (
+            <FacultyDetails
+              name={comm.name}
+              about={comm.about}
+              img={comm.img}
+              experience={comm.experience}
+              joining_date={comm.joining_date}
+            />
+          ))}
         </div>
         <div
           class="tab-pane fade"
@@ -80,7 +109,20 @@ const Tabs = () => {
           role="tabpanel"
           aria-labelledby="contact-tab"
         >
-          ...
+          <TextContent
+            title={department[4].title}
+            content={department[4].content}
+          />
+          {science.map((sci) => (
+            <FacultyDetails
+              name={sci.name}
+              designation={sci.designation}
+              about={sci.about}
+              img={sci.img}
+              experience={sci.experience}
+              joining_date={sci.joining_date}
+            />
+          ))}
         </div>
       </div>
     </div>
