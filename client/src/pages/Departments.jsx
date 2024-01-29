@@ -1,5 +1,8 @@
 import React from "react";
 import styles from "../styles/deparments.module.css";
+import { department, highSchool, primarySchool } from "../constants";
+import FacultyDetails from "../components/FacultyDetails";
+import TextContent from "../components/TextContent";
 import Navbar from "../components/Navbar";
 
 function Departments() {
@@ -61,7 +64,19 @@ function Departments() {
             role="tabpanel"
             aria-labelledby="v-pills-home-tab"
           >
-            d
+            <TextContent
+              title={department[0].title}
+              content={department[0].content}
+            />
+            {primarySchool.map((pri) => (
+              <FacultyDetails
+                about={pri.about}
+                experience={pri.experience}
+                img={pri.img}
+                name={pri.name}
+                joining_date={pri.joining_date}
+              />
+            ))}
           </div>
           <div
             class="tab-pane fade"
@@ -69,7 +84,20 @@ function Departments() {
             role="tabpanel"
             aria-labelledby="v-pills-profile-tab"
           >
-            d
+            <TextContent
+              title={department[1].title}
+              content={department[1].content}
+            />
+            {highSchool.map((hi) => (
+              <FacultyDetails
+                about={hi.about}
+                designation={hi.designation}
+                experience={hi.experience}
+                img={hi.img}
+                name={hi.name}
+                joining_date={hi.joining_date}
+              />
+            ))}
           </div>
           <div
             class="tab-pane fade"
