@@ -9,6 +9,11 @@ import Departments from "./pages/Departments";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Lookbook from "./components/Lookbook";
+import Achievements from "./components/Achievements";
+import Events from "./components/Events";
+import Facilities from "./components/Facilities";
+import ClassRoom from "./components/ClassRoom";
+import Campus from "./components/Campus";
 
 function App() {
   return (
@@ -20,6 +25,11 @@ function App() {
         <Route path="/academics" element={<Academics />} />
         <Route path="/departments" element={<Departments />} />
         <Route path="/admission" element={<Admissions />} />
+        <Route path="/achievements" element={<Achievements />} />
+        <Route path="/facilities" element={<Facilities />} />
+        <Route path="/campus" element={<Campus />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/classroom" element={<ClassRoom />} />
       </Routes>
       <Footer />
     </>
