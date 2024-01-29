@@ -47,7 +47,6 @@ const FourthTab = () => {
 function About() {
   return (
     <div className="about">
-      <Navbar />
       <div
         class="d-flex align-items-start"
         style={{ marginTop: "3rem", marginLeft: "4rem", width: "90%" }}
@@ -190,8 +189,6 @@ function About() {
           ))}
         </div>
       </div>
-
-      <Footer />
     </div>
   );
 }

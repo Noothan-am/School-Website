@@ -1,12 +1,9 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 import { overview, scholarship } from "../constants/index";
 import TextContent from "../components/TextContent";
 import puTimetable from "../assets/pu-timetable.pdf";
 import highSchoolTimetable from "../assets/high-school-timetable.pdf";
 import primarySchoolTimetable from "../assets/primary-school-timetable.pdf";
-import { Link } from "react-router-dom";
 import styles from "../styles/academics.module.css";
 
 const TimetablesContent = () => {
@@ -79,7 +76,6 @@ const TimetablesContent = () => {
 function Academics() {
   return (
     <div className="academics">
-      <Navbar />
       <div
         class="d-flex align-items-start"
         style={{ marginTop: "3rem", marginLeft: "4rem", width: "90%" }}
@@ -159,7 +155,6 @@ function Academics() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
