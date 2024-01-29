@@ -35,6 +35,51 @@ import {
   vicePresident,
 } from "../assets";
 
+import {
+  one,
+  two,
+  three,
+  four,
+  five,
+  six,
+} from "../assets/gallery/achievements";
+
+import {
+  onec,
+  twoc,
+  threec,
+  fourc,
+  fivec,
+  sixc,
+} from "../assets/gallery/campus";
+
+import {
+  onel,
+  fivel,
+  fourl,
+  sixl,
+  threel,
+  twol,
+} from "../assets/gallery/classrooms";
+
+import {
+  fivee,
+  foure,
+  onee,
+  sixe,
+  threee,
+  twoe,
+} from "../assets/gallery/event";
+
+import {
+  onef,
+  fivef,
+  fourf,
+  sixf,
+  threef,
+  twof,
+} from "../assets/gallery/facilities";
+
 export const homedetails = [
   {
     heading: "About",
@@ -465,4 +510,61 @@ export const department = [
     content:
       "Embark on a comprehensive scientific journey with our PCMB and PCMCS courses. The PCMB program integrates Physics, Chemistry, Mathematics, and Biology, offering a solid foundation for diverse scientific careers. Meanwhile, PCMCS combines Physics, Chemistry, Mathematics, and Computer Science, providing a well-rounded understanding of both physical sciences and computational principles. These courses prepare students for a future in science and technology, fostering a strong theoretical base alongside practical applications.",
   },
+];
+
+export const achievements = [
+  {
+    img: one,
+  },
+  {
+    img: two,
+  },
+  {
+    img: three,
+  },
+  {
+    img: four,
+  },
+  {
+    img: five,
+  },
+  {
+    img: six,
+  },
+];
+
+export const campus = [
+  { img: onec },
+  { img: twoc },
+  { img: threec },
+  { img: fourc },
+  { img: fivec },
+  { img: sixc },
+];
+
+export const classroom = [
+  { img: onel },
+  { img: twol },
+  { img: threel },
+  { img: fourl },
+  { img: fivel },
+  { img: sixl },
+];
+
+export const events = [
+  { img: onee },
+  { img: twoe },
+  { img: threee },
+  { img: foure },
+  { img: fivee },
+  { img: sixe },
+];
+
+export const facility = [
+  { img: onef },
+  { img: twof },
+  { img: threef },
+  { img: fourf },
+  { img: fivef },
+  { img: sixf },
 ];
