@@ -31,32 +31,32 @@ function Navbar() {
             </a>
           </li>
           <li className={`nav-item ${styles.navItem}`}>
-            <a className={`nav-link ${styles.navLink}`} href="/">
+            <a className={`nav-link ${styles.navLink}`} href="/about">
               About
             </a>
           </li>
           <li className={`nav-item ${styles.navItem}`}>
-            <a className={`nav-link ${styles.navLink}`} href="/">
+            <a className={`nav-link ${styles.navLink}`} href="/admission">
               Admission
             </a>
           </li>
           <li className={`nav-item ${styles.navItem}`}>
-            <a className={`nav-link ${styles.navLink}`} href="/">
+            <a className={`nav-link ${styles.navLink}`} href="/academics">
               Academics
             </a>
           </li>
           <li className={`nav-item ${styles.navItem}`}>
-            <a className={`nav-link ${styles.navLink}`} href="/">
+            <a className={`nav-link ${styles.navLink}`} href="/department">
               Departments
             </a>
           </li>
           <li className={`nav-item ${styles.navItem}`}>
-            <a className={`nav-link ${styles.navLink}`} href="/">
+            <a className={`nav-link ${styles.navLink}`} href="/facilities">
               Facilities
             </a>
           </li>
           <li className={`nav-item ${styles.navItem}`}>
-            <a className={`nav-link ${styles.navLink}`} href="/">
+            <a className={`nav-link ${styles.navLink}`} href="/gallery">
               Gallery
             </a>
           </li>

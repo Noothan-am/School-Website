@@ -27,7 +27,7 @@ const TimetablesContent = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Button
+              Download
             </a>
           </div>
         </div>
@@ -47,7 +47,7 @@ const TimetablesContent = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Button
+              Download
             </a>
           </div>
         </div>
@@ -67,7 +67,7 @@ const TimetablesContent = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Button
+              Download
             </a>
           </div>
         </div>
