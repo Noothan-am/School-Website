@@ -1,14 +1,9 @@
 import React from "react";
-import AlbumImage from "./AlbumImage";
-import { facility } from "../constants/index";
-import styles from "../styles/gallary.module.css";
+import { facility } from "../constants";
+import ImageGallery from "./ImageGallery";
 
 function Facilities() {
-  return (
-    <div className={styles["facilities"]}>
-      {facility && facility.map(({ img }) => <AlbumImage img={img} />)}
-    </div>
-  );
+  return <ImageGallery images={facility} />;
 }
 
 export default Facilities;

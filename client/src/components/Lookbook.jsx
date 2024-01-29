@@ -10,7 +10,7 @@ function Lookbook() {
   const navigate = useNavigate();
 
   const handleClick = (route) => {
-    navigate(`${route}`);
+    navigate(`/${route}`);
   };
 
   return (

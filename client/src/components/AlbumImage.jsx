@@ -1,5 +1,4 @@
 import React from "react";
-
 function AlbumImage({ img }) {
   return (
     <div>

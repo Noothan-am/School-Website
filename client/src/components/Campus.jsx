@@ -1,7 +1,9 @@
 import React from "react";
+import { campus } from "../constants";
+import ImageGallery from "./ImageGallery";
 
 function Campus() {
-  return <div>Campus</div>;
+  return <ImageGallery images={campus} />;
 }
 
 export default Campus;

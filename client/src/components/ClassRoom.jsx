@@ -1,7 +1,9 @@
 import React from "react";
+import { classroom } from "../constants";
+import ImageGallery from "./ImageGallery";
 
 function ClassRoom() {
-  return <div>ClassRoom</div>;
+  return <ImageGallery images={classroom} />;
 }
 
 export default ClassRoom;
