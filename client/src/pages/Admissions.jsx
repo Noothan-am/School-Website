@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/deparments.module.css";
+import FeeOveriew from "../components/FeeOverview";
 const TableOne = () => {
   return (
     <>
@@ -578,7 +579,7 @@ const Admissions = () => {
             role="tabpanel"
             aria-labelledby="v-pills-home-tab"
           >
-            dds
+            <FeeOveriew />
           </div>
           <div className="ta">
             <Tabs />
