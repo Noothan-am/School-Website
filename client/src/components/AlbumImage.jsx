@@ -1,9 +1,16 @@
 import React from "react";
-import classroom from "../assets/sugunu.jpg";
-function AlbumImage() {
+
+function AlbumImage({ img }) {
   return (
     <div>
-      <section style={{ margin: "4rem" }} class="">
+      <div
+        style={{
+          margin: "4rem",
+          display: "block",
+          width: "fit-content",
+        }}
+        class=""
+      >
         <div class="col-lg-4 col-md-12 mt-3 mb-4 mb-lg-0">
           <button
             style={{
@@ -15,14 +22,14 @@ function AlbumImage() {
             data-ripple-color="light"
           >
             <img
-              src={classroom}
+              src={img}
               class="w-100"
               alt="random"
               style={{ opacity: 0.7 }}
             />
           </button>
         </div>
-      </section>
+      </div>
     </div>
   );
 }

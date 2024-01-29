@@ -78,7 +78,7 @@ function Lookbook() {
         <div class="col-lg-4 col-md-12 mt-3 mb-4 mb-lg-0">
           <button
             style={{ background: "none", border: "none", position: "relative" }}
-            onClick={() => handleClick("facilities")}
+            onClick={() => handleClick("school-facilities")}
             class="bg-image hover-overlay ripple shadow-1-strong rounded"
             data-ripple-color="light"
           >

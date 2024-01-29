@@ -20,16 +20,17 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Lookbook />} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/academics" element={<Academics />} />
         <Route path="/departments" element={<Departments />} />
         <Route path="/admission" element={<Admissions />} />
         <Route path="/achievements" element={<Achievements />} />
-        <Route path="/facilities" element={<Facilities />} />
+        <Route path="/school-facilities" element={<Facilities />} />
         <Route path="/campus" element={<Campus />} />
         <Route path="/events" element={<Events />} />
         <Route path="/classroom" element={<ClassRoom />} />
+        <Route path="/gallery" element={<Lookbook />} />
       </Routes>
       <Footer />
     </>
