@@ -1,13 +1,13 @@
 import React from "react";
 import styles from "../styles/navbar.module.css";
-
+import logo from "../assets/logo.jpeg";
 function Navbar() {
   return (
     <nav
       className={`${styles.navbar} navbar navbar-expand-lg navbar-light background-color: #e3f2fd;`}
     >
       <a className={`${styles.navbarBrand} navbar-brand`} href="/">
-        Logo
+        <img style={{ height: "3rem", width: "4rem" }} src={logo} alt="" />
       </a>
       <button
         className="navbar-toggler"

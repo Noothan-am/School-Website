@@ -1,27 +1,27 @@
-import fav1 from "./fav1.jpg";
-import fav2 from "./fav2.jpg";
-import fav3 from "./fav3.jpg";
-import fav4 from "./fav4.jpg";
-import fav5 from "./fav5.jpg";
-import fav6 from "./fav6.jpg";
-import fav7 from "./fav7.jpg";
-import fav8 from "./fav8.jpg";
-import fav9 from "./fav9.jpg";
-import fav10 from "./fav10.jpg";
-import fav11 from "./fav11.jpg";
-import fav12 from "./fav12.jpg";
+import fac1 from "./fac1.jpg";
+import fac2 from "./fac2.jpg";
+import fac3 from "./fac3.jpg";
+import fac4 from "./fac4.jpg";
+import fac5 from "./fac5.jpg";
+import fac6 from "./fac6.jpg";
+import fac7 from "./fac7.jpg";
+import fac8 from "./fac8.jpg";
+import fac9 from "./fac9.jpg";
+import fac10 from "./fac10.jpg";
+import fac11 from "./fac11.jpg";
+import fac12 from "./fac12.jpg";
 
 export {
-  fav1,
-  fav2,
-  fav3,
-  fav4,
-  fav5,
-  fav6,
-  fav7,
-  fav8,
-  fav9,
-  fav10,
-  fav11,
-  fav12,
+  fac1,
+  fac2,
+  fac3,
+  fac4,
+  fac5,
+  fac6,
+  fac7,
+  fac8,
+  fac9,
+  fac10,
+  fac11,
+  fac12,
 };

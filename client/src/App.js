@@ -11,9 +11,10 @@ import Footer from "./components/Footer";
 import Lookbook from "./components/Lookbook";
 import Achievements from "./components/Achievements";
 import Events from "./components/Events";
-import Facilities from "./components/Facilities";
+import SchoolFacilities from "./components/Facilities";
 import ClassRoom from "./components/ClassRoom";
 import Campus from "./components/Campus";
+import Facilities from "./pages/Facilities";
 
 function App() {
   return (
@@ -26,11 +27,12 @@ function App() {
         <Route path="/departments" element={<Departments />} />
         <Route path="/admission" element={<Admissions />} />
         <Route path="/achievements" element={<Achievements />} />
-        <Route path="/school-facilities" element={<Facilities />} />
+        <Route path="/school-facilities" element={<SchoolFacilities />} />
         <Route path="/campus" element={<Campus />} />
         <Route path="/events" element={<Events />} />
         <Route path="/classroom" element={<ClassRoom />} />
         <Route path="/gallery" element={<Lookbook />} />
+        <Route path="/facilities" element={<Facilities />} />
       </Routes>
       <Footer />
     </>
