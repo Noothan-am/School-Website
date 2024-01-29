@@ -46,7 +46,7 @@ function Navbar() {
             </a>
           </li>
           <li className={`nav-item ${styles.navItem}`}>
-            <a className={`nav-link ${styles.navLink}`} href="/department">
+            <a className={`nav-link ${styles.navLink}`} href="/departments">
               Departments
             </a>
           </li>

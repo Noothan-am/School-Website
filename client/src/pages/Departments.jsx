@@ -5,6 +5,88 @@ import FacultyDetails from "../components/FacultyDetails";
 import TextContent from "../components/TextContent";
 import Navbar from "../components/Navbar";
 
+const Tabs = () => {
+  return (
+    <div
+      class="tab-pane fade"
+      id="v-pills-messages"
+      role="tabpanel"
+      aria-labelledby="v-pills-messages-tab"
+    >
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a
+            class="nav-link active"
+            id="home-tab"
+            data-toggle="tab"
+            href="#home"
+            role="tab"
+            aria-controls="home"
+            aria-selected="true"
+          >
+            Arts
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="profile-tab"
+            data-toggle="tab"
+            href="#profile"
+            role="tab"
+            aria-controls="profile"
+            aria-selected="false"
+          >
+            Commerce
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="contact-tab"
+            data-toggle="tab"
+            href="#contact"
+            role="tab"
+            aria-controls="contact"
+            aria-selected="false"
+          >
+            Science
+          </a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div
+          class="tab-pane fade show active"
+          id="home"
+          role="tabpanel"
+          aria-labelledby="home-tab"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro veniam
+          veritatis perferendis quia inventore, quos, fuga enim laudantium
+          excepturi est, molestias aliquid alias pariatur incidunt ratione aut
+          sed molestiae a.
+        </div>
+        <div
+          class="tab-pane fade"
+          id="profile"
+          role="tabpanel"
+          aria-labelledby="profile-tab"
+        >
+          ...
+        </div>
+        <div
+          class="tab-pane fade"
+          id="contact"
+          role="tabpanel"
+          aria-labelledby="contact-tab"
+        >
+          ...
+        </div>
+      </div>
+    </div>
+  );
+};
+
 function Departments() {
   return (
     <div className={styles["departments"]}>
@@ -99,14 +181,87 @@ function Departments() {
               />
             ))}
           </div>
-          <div
+          <div className="ta">
+            <Tabs />
+          </div>
+
+          {/* <div
             class="tab-pane fade"
             id="v-pills-messages"
             role="tabpanel"
             aria-labelledby="v-pills-messages-tab"
           >
-            d
-          </div>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  id="home-tab"
+                  data-toggle="tab"
+                  href="#home"
+                  role="tab"
+                  aria-controls="home"
+                  aria-selected="true"
+                >
+                  Arts
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="profile-tab"
+                  data-toggle="tab"
+                  href="#profile"
+                  role="tab"
+                  aria-controls="profile"
+                  aria-selected="false"
+                >
+                  Commerce
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="contact-tab"
+                  data-toggle="tab"
+                  href="#contact"
+                  role="tab"
+                  aria-controls="contact"
+                  aria-selected="false"
+                >
+                  Science
+                </a>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div
+                class="tab-pane fade show active"
+                id="home"
+                role="tabpanel"
+                aria-labelledby="home-tab"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                veniam veritatis perferendis quia inventore, quos, fuga enim
+                laudantium excepturi est, molestias aliquid alias pariatur
+                incidunt ratione aut sed molestiae a.
+              </div>
+              <div
+                class="tab-pane fade"
+                id="profile"
+                role="tabpanel"
+                aria-labelledby="profile-tab"
+              >
+                ...
+              </div>
+              <div
+                class="tab-pane fade"
+                id="contact"
+                role="tabpanel"
+                aria-labelledby="contact-tab"
+              >
+                ...
+              </div>
+            </div>
+          </div> */}
         </div>
       </div>
     </div>
