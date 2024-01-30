@@ -1,5 +1,6 @@
 import React from "react";
-import styles from "../styles/deparments.module.css";
+import FacultyDetails from "../components/FacultyDetails";
+import TextContent from "../components/TextContent";
 import {
   arts,
   commerce,
@@ -8,9 +9,7 @@ import {
   primarySchool,
   science,
 } from "../constants";
-import FacultyDetails from "../components/FacultyDetails";
-import TextContent from "../components/TextContent";
-import Navbar from "../components/Navbar";
+import styles from "../styles/deparments.module.css";
 
 const Tabs = () => {
   return (

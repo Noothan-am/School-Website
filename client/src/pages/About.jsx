@@ -1,16 +1,14 @@
 import React from "react";
-import FacultyDetails from "../components/FacultyDetails";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import styles from "../styles/about.module.css";
 import { president } from "../assets";
+import FacultyDetails from "../components/FacultyDetails";
+import TextContent from "../components/TextContent";
 import {
   boardMemeber,
   collegeDevelopment,
   principals,
   vm,
 } from "../constants/index";
-import TextContent from "../components/TextContent";
+import styles from "../styles/about.module.css";
 
 const FourthTab = () => {
   return (

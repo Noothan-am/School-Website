@@ -102,12 +102,12 @@ export const vm = [
   {
     title: "Vision",
     content:
-      "To provide quality education to students coming from all strata of the society. To shape the life of each student for a better future.",
+      "Our vision is to provide quality education to students from all walks of life, fostering an inclusive environment that values diversity and ensures equal opportunities. Beyond academic excellence, we aim to equip individuals with critical thinking and creativity, preparing them for personal and professional success. By emphasizing social responsibility and ethical awareness, we aspire to shape well-rounded individuals who contribute positively to society. Through comprehensive guidance and mentorship, our goal is to empower students for the challenges and opportunities of the future, ultimately creating a positive impact on both their lives and the broader community.",
   },
   {
     title: "Mission",
     content:
-      "To create technologically upgraded institution which caters to the educational standards of today&apos;s times.",
+      "Our mission is to establish a cutting-edge institution that embraces technology, catering to the educational standards of the present day. We strive to integrate innovative technologies throughout our curriculum, providing students with the digital skills essential for success in today's dynamic world. By creating a tech-rich learning environment, we aim to foster collaboration, critical thinking, and adaptability. Our commitment is to stay at the forefront of technological advancements, preparing students to be leaders in fields driven by innovation. Ultimately, we aspire to empower students with the knowledge and skills needed to excel in a rapidly evolving technological landscape.",
   },
 ];
 

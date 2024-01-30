@@ -1,9 +1,12 @@
+/* about.module.css */
+
 .vm {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  max-width: 500px;
+  width: 900px;
   align-items: center;
+  margin-left: 80px;
   margin-top: 20px;
 }
 
@@ -23,4 +26,32 @@
   color: rgb(36, 221, 221);
   position: relative;
   left: 15px;
+}
+
+/* Responsive styles for medium-sized devices */
+@media (max-width: 768px) {
+  .vm {
+    margin-left: 20px;
+  }
+
+  .vm__h1 {
+    font-size: 20px;
+  }
+
+  .vm__p {
+    left: 0;
+  }
+}
+
+/* Responsive styles for small-sized devices */
+@media (max-width: 480px) {
+  .vm {
+    margin-left: 25px;
+    margin-top: 10px;
+    width: 200px;
+  }
+
+  .vm__h1 {
+    font-size: 18px;
+  }
 }
