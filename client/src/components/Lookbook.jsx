@@ -5,6 +5,7 @@ import events from "../assets/events.jpeg";
 import campus from "../assets/campus.jpeg";
 import facilities from "../assets/facilities.jpeg";
 import achivements from "../assets/achivements.jpeg";
+import Footer from "./Footer";
 
 function Lookbook() {
   const navigate = useNavigate();
@@ -14,185 +15,212 @@ function Lookbook() {
   };
 
   return (
-    <section style={{ margin: "4rem" }} class="">
-      <div className="row">
-        <div class="col-lg-4 col-md-12 mt-3 mb-4 mb-lg-0">
-          <button
-            style={{ background: "none", border: "none", position: "relative" }}
-            onClick={() => handleClick("classroom")}
-            class="bg-image hover-overlay ripple shadow-1-strong rounded"
-            data-ripple-color="light"
-          >
-            <img
-              src={classroom}
-              class="w-100"
-              alt="random"
-              style={{ opacity: 0.7 }}
-            />
-            <div
+    <>
+      <section style={{ margin: "4rem" }} class="">
+        <div className="row">
+          <div class="col-lg-4 col-md-12 mt-3 mb-4 mb-lg-0">
+            <button
               style={{
-                position: "absolute",
-                top: "50%",
-                left: "50%",
-                transform: "translate(-50%, -50%)",
-                color: "black",
-                textAlign: "center",
-                fontSize: "1.5rem",
-                fontWeight: "bold",
+                background: "none",
+                border: "none",
+                position: "relative",
               }}
+              onClick={() => handleClick("classroom")}
+              class="bg-image hover-overlay ripple shadow-1-strong rounded"
+              data-ripple-color="light"
             >
-              {/* Classroom */}
-              ""
-            </div>
-          </button>
-        </div>
-        <div class="col-lg-4 col-md-12 mt-3 mb-4 mb-lg-0">
-          <button
-            style={{ background: "none", border: "none", position: "relative" }}
-            onClick={() => handleClick("achievements")}
-            class="bg-image hover-overlay ripple shadow-1-strong rounded"
-            data-ripple-color="light"
-          >
-            <img
-              src={achivements}
-              class="w-100"
-              alt="random"
-              style={{ opacity: 0.7 }}
-            />
-            <div
+              <img
+                src={classroom}
+                class="w-100"
+                alt="random"
+                style={{ opacity: 0.7 }}
+              />
+              <div
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(-50%, -50%)",
+                  color: "black",
+                  textAlign: "center",
+                  fontSize: "1.5rem",
+                  fontWeight: "bold",
+                }}
+              >
+                {/* Classroom */}
+                ""
+              </div>
+            </button>
+          </div>
+          <div class="col-lg-4 col-md-12 mt-3 mb-4 mb-lg-0">
+            <button
               style={{
-                position: "absolute",
-                top: "50%",
-                left: "50%",
-                transform: "translate(-50%, -50%)",
-                color: "black",
-                textAlign: "center",
-                fontSize: "1.5rem",
-                fontWeight: "bold",
+                background: "none",
+                border: "none",
+                position: "relative",
               }}
+              onClick={() => handleClick("achievements")}
+              class="bg-image hover-overlay ripple shadow-1-strong rounded"
+              data-ripple-color="light"
             >
-              Achievements
-            </div>
-          </button>
-        </div>
-        <div class="col-lg-4 col-md-12 mt-3 mb-4 mb-lg-0">
-          <button
-            style={{ background: "none", border: "none", position: "relative" }}
-            onClick={() => handleClick("school-facilities")}
-            class="bg-image hover-overlay ripple shadow-1-strong rounded"
-            data-ripple-color="light"
-          >
-            <img
-              src={facilities}
-              class="w-100"
-              alt="random"
-              style={{ opacity: 0.7 }}
-            />
-            <div
+              <img
+                src={achivements}
+                class="w-100"
+                alt="random"
+                style={{ opacity: 0.7 }}
+              />
+              <div
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(-50%, -50%)",
+                  color: "black",
+                  textAlign: "center",
+                  fontSize: "1.5rem",
+                  fontWeight: "bold",
+                }}
+              >
+                Achievements
+              </div>
+            </button>
+          </div>
+          <div class="col-lg-4 col-md-12 mt-3 mb-4 mb-lg-0">
+            <button
               style={{
-                position: "absolute",
-                top: "50%",
-                left: "50%",
-                transform: "translate(-50%, -50%)",
-                color: "black",
-                textAlign: "center",
-                fontSize: "1.5rem",
-                fontWeight: "bold",
+                background: "none",
+                border: "none",
+                position: "relative",
               }}
+              onClick={() => handleClick("school-facilities")}
+              class="bg-image hover-overlay ripple shadow-1-strong rounded"
+              data-ripple-color="light"
             >
-              Facilities
-            </div>
-          </button>
-        </div>
-        <div class="col-lg-4 col-md-12 mt-3 mb-4 mb-lg-0">
-          <button
-            style={{ background: "none", border: "none", position: "relative" }}
-            onClick={() => handleClick("campus")}
-            class="bg-image hover-overlay ripple shadow-1-strong rounded"
-            data-ripple-color="light"
-          >
-            <img
-              src={campus}
-              class="w-100"
-              alt="random"
-              style={{ opacity: 0.7 }}
-            />
-            <div
+              <img
+                src={facilities}
+                class="w-100"
+                alt="random"
+                style={{ opacity: 0.7 }}
+              />
+              <div
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(-50%, -50%)",
+                  color: "black",
+                  textAlign: "center",
+                  fontSize: "1.5rem",
+                  fontWeight: "bold",
+                }}
+              >
+                Facilities
+              </div>
+            </button>
+          </div>
+          <div class="col-lg-4 col-md-12 mt-3 mb-4 mb-lg-0">
+            <button
               style={{
-                position: "absolute",
-                top: "50%",
-                left: "50%",
-                transform: "translate(-50%, -50%)",
-                color: "black",
-                textAlign: "center",
-                fontSize: "1.5rem",
-                fontWeight: "bold",
+                background: "none",
+                border: "none",
+                position: "relative",
               }}
+              onClick={() => handleClick("campus")}
+              class="bg-image hover-overlay ripple shadow-1-strong rounded"
+              data-ripple-color="light"
             >
-              Campus
-            </div>
-          </button>
-        </div>
-        <div class="col-lg-4 col-md-12 mt-3 mb-4 mb-lg-0">
-          <button
-            style={{ background: "none", border: "none", position: "relative" }}
-            onClick={() => handleClick("events")}
-            class="bg-image hover-overlay ripple shadow-1-strong rounded"
-            data-ripple-color="light"
-          >
-            <img
-              src={events}
-              class=""
-              alt="random"
-              style={{ opacity: 0.7, height: "200px", width: "350px" }}
-            />
-            <div
+              <img
+                src={campus}
+                class="w-100"
+                alt="random"
+                style={{ opacity: 0.7 }}
+              />
+              <div
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(-50%, -50%)",
+                  color: "black",
+                  textAlign: "center",
+                  fontSize: "1.5rem",
+                  fontWeight: "bold",
+                }}
+              >
+                Campus
+              </div>
+            </button>
+          </div>
+          <div class="col-lg-4 col-md-12 mt-3 mb-4 mb-lg-0">
+            <button
               style={{
-                position: "absolute",
-                top: "50%",
-                left: "50%",
-                transform: "translate(-50%, -50%)",
-                color: "black",
-                textAlign: "center",
-                fontSize: "1.5rem",
-                fontWeight: "bold",
+                background: "none",
+                border: "none",
+                position: "relative",
               }}
+              onClick={() => handleClick("events")}
+              class="bg-image hover-overlay ripple shadow-1-strong rounded"
+              data-ripple-color="light"
             >
-              Events
-            </div>
-          </button>
-        </div>
-        <div class="col-lg-4 col-md-12 mt-3 mb-4 mb-lg-0">
-          <button
-            style={{ background: "none", border: "none", position: "relative" }}
-            onClick={() => handleClick("classroom")}
-            class="bg-image hover-overlay ripple shadow-1-strong rounded"
-            data-ripple-color="light"
-          >
-            <img
-              src={classroom}
-              class="w-100"
-              alt="random"
-              style={{ opacity: 0.7 }}
-            />
-            <div
+              <img
+                src={events}
+                class=""
+                alt="random"
+                style={{ opacity: 0.7, height: "200px", width: "350px" }}
+              />
+              <div
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(-50%, -50%)",
+                  color: "black",
+                  textAlign: "center",
+                  fontSize: "1.5rem",
+                  fontWeight: "bold",
+                }}
+              >
+                Events
+              </div>
+            </button>
+          </div>
+          <div class="col-lg-4 col-md-12 mt-3 mb-4 mb-lg-0">
+            <button
               style={{
-                position: "absolute",
-                top: "50%",
-                left: "50%",
-                transform: "translate(-50%, -50%)",
-                color: "black",
-                textAlign: "center",
-                fontSize: "1.5rem",
-                fontWeight: "bold",
+                background: "none",
+                border: "none",
+                position: "relative",
               }}
+              onClick={() => handleClick("classroom")}
+              class="bg-image hover-overlay ripple shadow-1-strong rounded"
+              data-ripple-color="light"
             >
-              Classroom
-            </div>
-          </button>
+              <img
+                src={classroom}
+                class="w-100"
+                alt="random"
+                style={{ opacity: 0.7 }}
+              />
+              <div
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(-50%, -50%)",
+                  color: "black",
+                  textAlign: "center",
+                  fontSize: "1.5rem",
+                  fontWeight: "bold",
+                }}
+              >
+                Classroom
+              </div>
+            </button>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <Footer />
+    </>
   );
 }
 

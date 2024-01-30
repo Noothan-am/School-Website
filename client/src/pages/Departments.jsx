@@ -10,6 +10,7 @@ import {
   science,
 } from "../constants";
 import styles from "../styles/deparments.module.css";
+import Footer from "../components/Footer";
 
 const Tabs = () => {
   return (
@@ -226,6 +227,7 @@ function Departments() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

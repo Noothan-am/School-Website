@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../styles/deparments.module.css";
 import FeeOveriew from "../components/FeeOverview";
+import Footer from "../components/Footer";
 const TableOne = () => {
   return (
     <>
@@ -586,6 +587,7 @@ const Admissions = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

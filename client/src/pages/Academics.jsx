@@ -5,6 +5,7 @@ import puTimetable from "../assets/pu-timetable.pdf";
 import highSchoolTimetable from "../assets/high-school-timetable.pdf";
 import primarySchoolTimetable from "../assets/primary-school-timetable.pdf";
 import styles from "../styles/academics.module.css";
+import Footer from "../components/Footer";
 
 const TimetablesContent = () => {
   return (
@@ -155,6 +156,7 @@ function Academics() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

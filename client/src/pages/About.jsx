@@ -9,6 +9,7 @@ import {
   vm,
 } from "../constants/index";
 import styles from "../styles/about.module.css";
+import Footer from "../components/Footer";
 
 const FourthTab = () => {
   return (
@@ -187,6 +188,7 @@ function About() {
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

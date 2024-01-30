@@ -18,3 +18,14 @@
 .office-info p {
   font-size: 15px;
 }
+
+@media screen and (max-width: 768px) {
+  .office-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .office-info {
+    width: 85%;
+    margin: 0.7rem auto;
+  }
+}
