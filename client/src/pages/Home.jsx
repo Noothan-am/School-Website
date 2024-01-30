@@ -3,10 +3,10 @@ import HomeContent from "../components/HomeContent";
 import styles from "../styles/homepage.module.css";
 function Home() {
   return (
-    <div>
+    <div className={styles.homeMain} >
       <div className={styles["home-hero"]}>
-        <img src={require("../assets/hero-bg.jpg")} alt="" />
-        <h1>GOVERNMENT INSTITUTIONS RAJANUKUNTE</h1>
+        <img className={styles.homeImg} src={require("../assets/hero-bg.jpg")} alt="" />
+        <h1 className={styles.homeH1} >GOVERNMENT INSTITUTIONS RAJANUKUNTE</h1>
       </div>
       <HomeContent />
     </div>

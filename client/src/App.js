@@ -21,7 +21,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        {/* <Route path="/" element={<Lookbook />} /> */}
         <Route path="/about" element={<About />} />
         <Route path="/academics" element={<Academics />} />
         <Route path="/departments" element={<Departments />} />
@@ -34,6 +34,7 @@ function App() {
         <Route path="/gallery" element={<Lookbook />} />
         <Route path="/facilities" element={<Facilities />} />
       </Routes>
+      <Home />
       <Footer />
     </>
   );
