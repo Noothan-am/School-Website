@@ -10,17 +10,21 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Lookbook from "./components/Lookbook";
 
+
+
 function App() {
   return (
     <>
+      
       <Navbar />
       <Routes>
-        <Route path="/" element={<Lookbook />} />
+        {/* <Route path="/" element={<Lookbook />} /> */}
         <Route path="/about" element={<About />} />
         <Route path="/academics" element={<Academics />} />
         <Route path="/departments" element={<Departments />} />
         <Route path="/admission" element={<Admissions />} />
       </Routes>
+      <Home />
       <Footer />
     </>
   );

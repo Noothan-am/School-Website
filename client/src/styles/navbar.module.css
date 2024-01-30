@@ -24,3 +24,57 @@
   margin-left: 4rem;
   text-decoration: none;
 }
+
+/* Media Queries */
+@media (max-width: 1300px) {
+  .navbar{
+    width: 100%;
+  }
+
+  .navItem{
+    margin-left: 3rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .navbar{
+    width: 100%;
+  }
+
+  .navItem{
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 1060px) {
+  .navbar{
+    padding-right: 5%;
+  }
+
+  .navItem{
+    margin-right: 5%;
+  }
+
+}
+@media (max-width: 755px) {
+  .navbar{
+    padding-right: 5%;
+  }
+
+  .navItem{
+    margin-right: 10%;
+  }
+}
+@media (max-width: 455px) {
+  .navbar{
+    width: 120%;
+  }
+
+}
+
+@media (max-width: 320px) {
+  .navbar{
+    width: 120%;
+  }
+
+}
