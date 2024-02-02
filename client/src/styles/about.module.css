@@ -11,7 +11,7 @@
 }
 
 .vm__h1 {
-  color: rgb(1, 111, 255);
+  color: #1f65ff;
   font-size: 25px;
   font-weight: 300;
 }
@@ -23,7 +23,7 @@
 }
 
 .vm__p {
-  color: rgb(36, 221, 221);
+  color: #777;
   position: relative;
   left: 15px;
   text-align: justify;

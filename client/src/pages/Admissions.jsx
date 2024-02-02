@@ -7,8 +7,6 @@ const TableOne = () => {
   return (
     <>
       <div>
-        <h1 className="title">GOVERNMENT PUC ADMISSION FEE STRUCTURE</h1>
-        <hr />
         <h2 className="section-title">1st PUC FEE STRUCTURE 2023-2024</h2>
         <div className="table-container">
           <table className="center-table">
@@ -285,8 +283,6 @@ const TableThree = () => {
   return (
     <>
       <div>
-        <h1 className="title">GOVERNMENT SCHOOL ADMISSION FEE STRUCTURE</h1>
-        <hr />
         <h2 className="section-title">PRIMARY SCHOOL DIVISION</h2>
         <div className="table-container">
           <table className="center-table">

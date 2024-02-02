@@ -57,7 +57,7 @@ const HomeContent = () => {
           onClick={() => handleBoxClick(3)}
         >
           03.
-          <h1 className={styles.hcontent__right__box__h1}>Extra</h1>
+          <h1 className={styles.hcontent__right__box__h1}>Overview</h1>
         </div>
       </div>
     </div>
