@@ -37,3 +37,20 @@
   object-fit: cover;
   border-radius: 8px;
 }
+
+.leftArrow {
+  display: flex;
+  gap: 1rem;
+  position: absolute;
+  top: 7rem;
+  left: 5%;
+  transform: translateY(-50%);
+  z-index: 1;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+.leftArrow > p {
+  margin-top: -5px;
+  font-weight: bold;
+}

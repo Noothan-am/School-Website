@@ -19,21 +19,22 @@ function Lookbook() {
       <section style={{ margin: "4rem" }} class="">
         <div className="row">
           <div class="col-lg-4 col-md-12 mt-3 mb-4 mb-lg-0">
-            <button
+            <div
               style={{
                 background: "none",
                 border: "none",
                 position: "relative",
               }}
-              onClick={() => handleClick("classroom")}
               class="bg-image hover-overlay ripple shadow-1-strong rounded"
               data-ripple-color="light"
             >
               <img
-                src={classroom}
+                src={
+                  "https://images.unsplash.com/photo-1580582932707-520aed937b7b?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                }
                 class="w-100"
                 alt="random"
-                style={{ opacity: 0.7 }}
+                style={{ opacity: 0.9 }}
               />
               <div
                 style={{
@@ -41,16 +42,18 @@ function Lookbook() {
                   top: "50%",
                   left: "50%",
                   transform: "translate(-50%, -50%)",
-                  color: "black",
+                  color: "white",
                   textAlign: "center",
-                  fontSize: "1.5rem",
+                  fontSize: "2.3rem",
                   fontWeight: "bold",
+                  textShadow:
+                    "1px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000, 1px 1px #000,-1px -1px #000, 1px -1px #000, -1px 1px #000",
                 }}
               >
                 {/* Classroom */}
-                ""
+                Gallery
               </div>
-            </button>
+            </div>
           </div>
           <div class="col-lg-4 col-md-12 mt-3 mb-4 mb-lg-0">
             <button
