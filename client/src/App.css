@@ -39,3 +39,7 @@ Link > a {
 .center-table tr:hover {
   background-color: gold;
 }
+
+body {
+  background-color: #f7fbfc;
+}
