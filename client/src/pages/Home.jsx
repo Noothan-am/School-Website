@@ -26,7 +26,7 @@ function Home() {
           height="50%"
         />
         <div className={styles["text-overlay"]}>
-          <h1>Government Institutions Rajanukunte</h1>
+          <h1>ಸರ್ಕಾರಿ ಸಂಸ್ಥೆಗಳು ರಾಜಾನುಕುಂಟೆ</h1>
         </div>
       </div>
       <HomeContent />
